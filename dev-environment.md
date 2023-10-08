@@ -6,57 +6,18 @@ nav_order: 2
 
 # How to Set Up a Development Environment
 
- {Before using this template, read the accompanying [how-to template guide](about-how-to.md)}
-
 ## Overview
 
-This guide explains how to {insert a brief description of the task}.
+This guide explains how to set up a development environment for *How Do I Docs*. 
 
-{Optional: Specify when and why your user might want to perform the task.}
+## Get the Site Source
 
-## Before you start
+1. Fork the [site repository](https://github.com/how-do-i-docs/site)
 
-{This section is optional}
+2. Open up a terminal and navigate to where you'd like the site source to be
 
-Before you {insert a brief description of the task}, ensure:
+3. Clone the forked repository with `git clone git@github.com/<your_username>/site.git`
 
-- Prerequisite 1
-- Prerequisite 2
-- Prerequisite 3
+## Download and Configure a Code Editor
 
-## {Task name }
-
-{Optional: Provide a concise description of the purpose of this task. Only include this if the purpose is not clear from the task title.}
-
-{You can use this format to describe your steps:}
-
-1. {Write the step here. Use a verb to start.}
-
-    {Optional: Explanatory text}
-
-    {Optional: Code sample or screenshot that helps your users complete this step.}
-
-    {Optional: The result of completing this step.}
-
-2. {Write the step here. Use a verb to start.}
-
-    2.1. {Substep 1}
-
-    2.2. {Substep 2}
-
-### {Sub-task}
-...
-
-{This section is optional. Include a sub-task only if the task is big and complex.}
-
-## See also
-
-{Include references and/or links to other related documentation such as other how-to guides, conceptual topics, troubleshooting information, and limitation details if any.
-
-- Reference link
-- Concept link
-- Troubleshooting link}
-
----
-
-> Explore other templates from [The Good Docs Project](https://thegooddocsproject.dev/). Use our [feedback form](https://thegooddocsproject.dev/feedback/?template=How%20to) to give feedback on this template.
+1. As the site is plain old HTML and CSS, it can be edited with pretty much anything. For the best experience, though, I recommend [Visual Studio Code](https://code.visualstudio.com/) and the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension.
